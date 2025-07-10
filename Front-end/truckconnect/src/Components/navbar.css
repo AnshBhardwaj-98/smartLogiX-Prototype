@@ -1,0 +1,24 @@
+.navbar {
+  margin: 0;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: white;
+  width: 100vw;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ff6b00;
+}
+
+.logo span {
+  margin-left: 0.5rem;
+}

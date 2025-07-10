@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background-color: #fff;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.hero .highlight {
+  color: #ff6b00;
+}
+
+.subtext {
+  color: #555;
+  max-width: 600px;
+  margin: 0.8rem auto 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.stats div {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.stats div strong {
+  font-size: 1.3rem;
+  color: #004bff;
+}
+
+.user-type-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  list-style: none;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.card li {
+  margin-bottom: 0.6rem;
+}
+
+.blue-btn, .orange-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.blue-btn {
+  background-color: #004bff;
+}
+
+.orange-btn {
+  background-color: #ff6b00;
+}
