@@ -7,11 +7,7 @@ const LandingPage = () => {
   const navigate = useNavigate();
 
   const navhandler = () =>{
-    navigate('/driver')
-  }
-
-  const Shpperlogin = () =>{
-    navigate('/shipper')
+    navigate('/register')
   }
   return (
    <div className='landing-page'>
@@ -38,7 +34,7 @@ const LandingPage = () => {
             <li>Specify cargo requirements</li>
             <li>Connect with drivers</li>
           </ul>
-          <button className="blue-btn" onClick={Shpperlogin}>Get Started as Shipper</button>
+          <button className="blue-btn">Get Started as Shipper</button>
         </div>
 
         <div className="card driver">

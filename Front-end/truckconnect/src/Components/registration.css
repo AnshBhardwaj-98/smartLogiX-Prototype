@@ -1,0 +1,80 @@
+body, html {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #5a5a5a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-container {
+  width: 30vw;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #0a2c5d;
+}
+
+.user-type-toggle {
+  display: flex;
+  flex-direction: column;
+   padding: 12px; 
+  height: 45px;   
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.form input:focus,
+.form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: #0056c4;
+}
